@@ -1,3 +1,3 @@
 version:
 0.0.1 : implament a simple http server
-0.0.2 : add support of mongodb, can save and lookup datas
+0.0.2 : add support of mongodb, can save and list all the datas
