@@ -5,6 +5,8 @@
  * Time: 1:35 PM
  * To change this template use File | Settings | File Templates.
  */
+
+
 console.log("Hello World");
 
 var server = require("./server");
@@ -16,5 +18,8 @@ handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
 handle["/upload"] = requestHandlers.upload;
 handle["/show"] = requestHandlers.show;
+handle["/list"] = requestHandlers.list;
+
+
 
 server.start(router.route,handle);

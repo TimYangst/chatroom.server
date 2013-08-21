@@ -8,6 +8,7 @@
 var querystring = require("querystring");
 var fs = require("fs");
 var formidable = require("formidable");
+var messageDao = require("./messageDao");
 
 function start(response) {
     console.log("Request handler 'start' was called.");
@@ -62,7 +63,12 @@ function show(response, request, query) {
     });
 }
 
+function list(response){
+    console.log("Request handler 'list' was called.");
+    messageDao.list(response);
+}
 
 exports.start = start;
 exports.upload = upload;
 exports.show = show;
+exports.list = list;
