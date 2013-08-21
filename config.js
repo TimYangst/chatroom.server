@@ -6,7 +6,8 @@
  */
 
 var PORT = 8888;
-var DATABASE_URL = 'mongodb://localhost:27017/chatroomdb';
+var DATABASE_URL = 'mongodb://localhost/chatroom';
+
 
 exports.PORT = PORT;
 exports.DATABASE_URL = DATABASE_URL;

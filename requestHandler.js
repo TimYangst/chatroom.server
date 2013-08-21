@@ -68,7 +68,15 @@ function list(response){
     messageDao.list(response);
 }
 
+function save(response, request, query)
+{
+    var username = querystring.parse(query).username;
+    var content = querystring.parse(query).content;
+    messageDao.save(username,content,new Date().getTime(),response);
+}
+
 exports.start = start;
 exports.upload = upload;
 exports.show = show;
 exports.list = list;
+exports.save = save;
