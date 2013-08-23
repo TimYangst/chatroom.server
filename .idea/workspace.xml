@@ -1,31 +1,912 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd25cc9a-00dc-4272-b3c2-b0287799f335" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
-    <list default="true" id="dd25cc9a-00dc-4272-b3c2-b0287799f335" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messageDao.js" afterPath="$PROJECT_DIR$/messageDao.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requestHandler.js" afterPath="$PROJECT_DIR$/requestHandler.js" />
+    <list default="true" id="25b664d1-b6f7-49f1-a4c8-00adf27614b4" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\.idea\jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\model\message.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\benchmark\bench-multipart-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\example\json.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\example\post.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\example\upload.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\lib\file.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\lib\incoming_form.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\lib\json_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\lib\multipart_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\lib\octet_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\lib\querystring_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\common.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\file\beta-sticker-1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\file\binaryfile.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\file\blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\file\funkyfilename.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\file\menu_separator.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\file\plain.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\http\special-chars-in-filename\info.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\js\encoding.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\js\misc.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\js\no-filename.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\js\preamble.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\js\special-chars-in-filename.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\js\workarounds.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\fixture\multipart.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\integration\test-fixtures.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\integration\test-json.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\integration\test-octet-stream.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\legacy\common.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\legacy\integration\test-multipart-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\legacy\simple\test-file.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\legacy\simple\test-incoming-form.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\legacy\simple\test-multipart-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\legacy\simple\test-querystring-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\legacy\system\test-multi-video-upload.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\run.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\standalone\test-connection-aborted.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\standalone\test-content-transfer-encoding.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\standalone\test-issue-46.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\tools\base64.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\unit\test-file.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\test\unit\test-incoming-form.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\formidable\tool\record.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\admin.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\auth\mongodb_cr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\auth\mongodb_gssapi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\auth\mongodb_plain.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\auth\mongodb_sspi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\collection.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\commands\base_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\commands\db_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\commands\delete_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\commands\get_more_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\commands\insert_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\commands\kill_cursor_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\commands\query_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\commands\update_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\base.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\connection.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\connection_pool.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\connection_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\mongos.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\read_preference.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\repl_set\ha.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\repl_set\options.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\repl_set\repl_set.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\repl_set\repl_set_state.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\repl_set\strategies\ping_strategy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\repl_set\strategies\statistics_strategy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\server.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\connection\url_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\cursorstream.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\db.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\gridfs\chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\gridfs\grid.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\gridfs\gridstore.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\gridfs\readstream.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\mongo_client.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\lib\mongodb\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\browser_build\bson.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\browser_build\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\build_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\ext\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\ext\bson.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\ext\bson.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\ext\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\ext\win32\ia32\bson.node" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\ext\win32\x64\bson.node" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\ext\wscript" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\binary.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\binary_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\bson.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\code.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\db_ref.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\double.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\float_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\long.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\max_key.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\min_key.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\lib\bson\timestamp.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\tools\gleak.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\MIT.LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine_favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\auth_processes\mongodb.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\base64.c" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\base64.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\kerberos.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\kerberos.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\kerberos.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\kerberos_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\kerberos_context.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\kerberosgss.c" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\kerberosgss.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\sspi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\base64.c" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\base64.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos_sspi.c" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos_sspi.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\worker.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\worker.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_context.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_context.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_credentials.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_credentials.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_credentials.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\worker.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\lib\worker.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\test\kerberos_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\test\kerberos_win32_test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\test\win32\security_buffer_descriptor_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\test\win32\security_buffer_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\node_modules\kerberos\test\win32\security_credentials_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongodb\t.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\examples\CAPSLOCKTYPER.JS" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\examples\typer-fsr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\examples\typer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\float.patch" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\fs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\lib\_stream_duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\lib\_stream_passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\lib\_stream_readable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\lib\_stream_transform.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\lib\_stream_writable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\readable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\common.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\fixtures\x1024.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-basic.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-compatibility.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-finish-pipe.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-large-read-stall.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-objects.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-pipe-error-handling.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-push.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-read-sync-stack.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-readable-empty-buffer-no-eof.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-readable-from-list.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-readable-legacy-drain.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-readable-non-empty-end.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-set-encoding.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-transform.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-unpipe-drain.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-unpipe-leak.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\test\simple\test-stream2-writable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\transform.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\writable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\readable-stream\zlib.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\thunky\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\thunky\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\node_modules\thunky\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\insert.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-crash.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-find-and-select.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-find-by-objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-find-cursor-options.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-find-cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-find-limit.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-find-one.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-find-query.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-find.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-get-collection-names.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-group.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-remove.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-runcommand.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-simple.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-streaming-cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-update-and-callback.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-update-multi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\mongojs\tests\test-update.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\benchmarks\decode.bench.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\benchmarks\encode.bench.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\benchmarks\runner.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\logger.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\manager.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\namespace.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\socket.io.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\socket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\static.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\store.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\stores\memory.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\stores\redis.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transport.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\flashsocket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\htmlfile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\http-polling.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\http.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\jsonp-polling.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\websocket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\websocket\default.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\websocket\hybi-07-12.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\websocket\hybi-16.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\websocket\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\transports\xhr-polling.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\lib\util.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\base64id\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\base64id\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\base64id\lib\base64id.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\base64id\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\doc\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\examples\basic.fallback.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\examples\basic.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\lib\server.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\tests\ssl\ssl.crt" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\tests\ssl\ssl.private.key" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\policyfile\tests\unit.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\buffer_bench.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\hiredis_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\re_sub_test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\reconnect_test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\stress\codec.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\stress\pubsub\pub.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\stress\pubsub\run" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\stress\pubsub\server.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\stress\rpushblpop\pub.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\stress\rpushblpop\run" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\stress\rpushblpop\server.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\stress\speed\00" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\stress\speed\plot" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\stress\speed\size-rate.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\stress\speed\speed.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\benches\sub_quit_test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\diff_multi_bench_output.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\auth.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\backpressure_drain.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\eval.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\extend.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\file.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\mget.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\monitor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\multi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\multi2.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\psubscribe.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\pub_sub.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\simple.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\sort.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\subqueries.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\subquery.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\unix_socket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\examples\web_server.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\generate_commands.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\lib\commands.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\lib\parser\hiredis.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\lib\parser\javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\lib\queue.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\lib\to_array.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\lib\util.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\mem.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\multi_bench.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\redis\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\bin\builder.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\component-bind\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\component-bind\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\component-emitter\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\component-emitter\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\component-json-fallback\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\component-json-fallback\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\component-json\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\component-json\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\emitter.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\socket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transport.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\flashsocket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\polling-jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\polling-xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\polling.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\websocket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\util.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-socket.io-protocol\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\learnboost-socket.io-protocol\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\timoxley-to-array\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\timoxley-to-array\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\visionmedia-debug\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\visionmedia-debug\debug.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\components\visionmedia-debug\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\dist\WebSocketMain.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\dist\WebSocketMainInsecure.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\dist\socket.io.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\dist\socket.io.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\events.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\io.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\json.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\namespace.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\socket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\transport.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\transports\flashsocket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\transports\htmlfile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\transports\jsonp-polling.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\transports\websocket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\transports\xhr-polling.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\transports\xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\util.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\WebSocketMain.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\WebSocketMainInsecure.zip" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\IWebSocketLogger.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\WebSocket.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\WebSocketEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\WebSocketMain.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\WebSocketMainInsecure.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\build.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\adobe\net\proxies\RFC2817Socket.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\gsolo\encryption\MD5.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\Crypto.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\cert\MozillaRootCertificates.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\cert\X509Certificate.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\cert\X509CertificateCollection.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\HMAC.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\IHMAC.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\IHash.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\MAC.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\MD2.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\MD5.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\SHA1.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\SHA224.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\SHA256.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\SHABase.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\prng\ARC4.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\prng\IPRNG.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\prng\Random.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\prng\TLSPRF.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\rsa\RSAKey.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\AESKey.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\BlowFishKey.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\CBCMode.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\CFB8Mode.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\CFBMode.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\CTRMode.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\DESKey.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\ECBMode.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\ICipher.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\IMode.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\IPad.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\IStreamCipher.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\ISymmetricKey.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\IVMode.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\NullPad.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\OFBMode.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\PKCS5.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\SSLPad.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\SimpleIVMode.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\TLSPad.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\TripleDESKey.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\XTeaKey.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\aeskey.pl" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\dump.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\AESKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\ARC4Test.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\BigIntegerTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\BlowFishKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\CBCModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\CFB8ModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\CFBModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\CTRModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\DESKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\ECBModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\HMACTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\ITestHarness.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\MD2Test.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\MD5Test.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\OFBModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\RSAKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\SHA1Test.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\SHA224Test.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\SHA256Test.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\TLSPRFTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\TestCase.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\TripleDESKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\XTeaKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\BulkCiphers.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\CipherSuites.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\IConnectionState.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\ISecurityParameters.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\KeyExchanges.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\MACs.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\SSLConnectionState.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\SSLEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\SSLSecurityParameters.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSConfig.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSConnectionState.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSEngine.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSError.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSSecurityParameters.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSSocket.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSSocketEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSTest.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\BarrettReduction.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\BigInteger.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\ClassicReduction.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\IReduction.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\MontgomeryReduction.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\NullReduction.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\bi_internal.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\ArrayUtil.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\Base64.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\Hex.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\Memory.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\ByteString.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\DER.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\IAsn1Type.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\Integer.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\OID.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\ObjectIdentifier.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\PEM.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\PrintableString.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\Sequence.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\Set.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\Type.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\UTCTime.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\sample.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\web_socket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\.bin\uglifyjs" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\.bin\uglifyjs.cmd" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\.bin\wscat" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\.bin\wscat.cmd" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\README" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\Tokenizer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\ZeParser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\benchmark.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\test-parser.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\test-tokenizer.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\tests.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\unicodecategories.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\README.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\README.org" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\bin\uglifyjs" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\docstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\lib\object-ast.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\lib\parse-js.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\lib\process.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\lib\squeeze-more.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\beautify.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\testparser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\array1.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\array2.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\array3.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\array4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\assignment.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\concatstring.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\const.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\empty-blocks.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\forstatement.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\if.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\ifreturn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\ifreturn2.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue10.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue11.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue13.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue14.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue16.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue17.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue20.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue21.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue25.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue27.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue278.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue28.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue29.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue30.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue34.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue48.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue50.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue53.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue54.1.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue68.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue69.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue9.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\mangle.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\null_string.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\strict-equals.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\var.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\with.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\array1.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\array2.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\array3.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\array4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\assignment.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\concatstring.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\const.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\empty-blocks.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\forstatement.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\if.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\ifreturn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\ifreturn2.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue10.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue11.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue13.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue14.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue16.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue17.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue20.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue21.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue25.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue27.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue278.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue28.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue29.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue30.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue34.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue48.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue50.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue53.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue54.1.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue68.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue69.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue9.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\mangle.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\null_string.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\strict-equals.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\var.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\with.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\269.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\app.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\embed-tokens.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\goto.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\goto2.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\hoist.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\instrument.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\instrument2.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\liftvars.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\uglify-hangs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\uglify-hangs2.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\uglify-js.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\bench\parser.benchmark.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\bench\sender.benchmark.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\bench\speed.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\bench\util.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\bin\wscat" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\doc\ws.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\public\app.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\public\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\public\uploader.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\server.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats-express_3\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats-express_3\public\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats-express_3\server.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats\public\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats\server.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\ssl.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\BufferPool.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\BufferUtil.fallback.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\BufferUtil.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\ErrorCodes.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Receiver.hixie.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Receiver.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Sender.hixie.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Sender.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Validation.fallback.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Validation.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\WebSocket.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\WebSocketServer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\lib\commander.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\lib\options.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\test\fixtures\test.conf" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\test\options.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\tinycolor\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\tinycolor\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\tinycolor\example.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\tinycolor\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\tinycolor\tinycolor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\src\bufferutil.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\src\validation.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\BufferPool.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\Receiver.hixie.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\Receiver.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\Sender.hixie.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\Sender.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\Validation.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\WebSocket.integration.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\WebSocket.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\WebSocketServer.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\autobahn-server.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\autobahn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\agent1-cert.pem" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\agent1-key.pem" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\ca1-cert.pem" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\ca1-key.pem" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\certificate.pem" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\key.pem" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\request.pem" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\textfile" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\hybi-common.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\testserver.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\autotest.watchr" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\example\demo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\lib\XMLHttpRequest.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-constants.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-events.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-exceptions.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-headers.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-request-methods.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-request-protocols.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\testdata.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\test\events.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\test\io.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\test\node\builder.common.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\test\node\builder.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\test\parser.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\test\socket.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\test\util.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\node_modules\socket.io-client\test\worker.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\node_modules\socket.io\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\ws.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/.npmignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/.npmignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/.npmignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/.npmignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/.npmignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/.npmignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/.npmignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/.npmignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/.npmignore" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/LICENSE" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/LICENSE" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/LICENSE" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/LICENSE" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/LICENSE" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/LICENSE" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/Makefile" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/Makefile" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/Makefile" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/Makefile" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/Makefile" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/Makefile" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/Makefile" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/Makefile" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/README.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/SPEC.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/SPEC.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/chatroom.server.iml" afterPath="$PROJECT_DIR$/.idea/chatroom.server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mongoose/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/bench.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/bench.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/bench.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/bench.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/buffer.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/buffer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/cast.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/cast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/collection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/component.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/component.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connectionstate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connectionstate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/divergentArray.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/divergentArray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/doc-methods.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/doc-methods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/document.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/document.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/documentarray.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/documentarray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/hooks.alt.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/hooks.alt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/hooks.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/hooks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/index.html" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/test/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/test/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/test/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/test/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/test/index.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/internal.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/internal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/support/jquery.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/support/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/missingSchema.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/missingSchema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/mixed.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/mixed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/ms.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/ms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/namedscope.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/namedscope.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/number.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/number.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/objectid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/overwriteModel.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/overwriteModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpath/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/muri/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/regexp-clone/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population-across-three-collections.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population-across-three-collections.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population-basic.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population-basic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population-of-existing-doc.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population-of-existing-doc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population-of-multiple-existing-docs.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population-of-multiple-existing-docs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population-options.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population-options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/population-plain-objects.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/population-plain-objects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/promise.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/promise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/lib/promise.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/lib/promise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promise.test.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promise.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promises-A.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/test/promises-A.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/querystream.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/querystream.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/examples/schema.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/schema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schemadefault.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schemadefault.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/lib/sliced.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/node_modules/sliced/lib/sliced.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/lib/sliced.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/sliced/lib/sliced.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/statemachine.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/statemachine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/static.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/static.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/test.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/test.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/ms/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/validation.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/validator.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/version.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/errors/version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/website.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/website.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chatroom.server.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1377061876689" ignored="false" />
-    <file path="/Dummy.txt" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1377062137215" ignored="false" />
-    <file path="/helloworld.js" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1376637951263" ignored="false" />
-    <file path="/server.js" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1376644546965" ignored="false" />
-    <file path="/server.js" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1377066946036" ignored="false" />
-    <file path="/router.js" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1376644374496" ignored="false" />
-    <file path="/requestHandler.js" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1376644490504" ignored="false" />
-    <file path="/requestHandler.js" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1377077904773" ignored="false" />
-    <file path="/index.js" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1377077927733" ignored="false" />
-    <file path="/config.js" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1377073276045" ignored="false" />
-    <file path="/messageDao.js" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1377078190699" ignored="false" />
-    <file path="/fragment.js" changelist="dd25cc9a-00dc-4272-b3c2-b0287799f335" time="1377072203671" ignored="false" />
+    <file path="/Dummy.txt" changelist="25b664d1-b6f7-49f1-a4c8-00adf27614b4" time="1377226444362" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,65 +924,6 @@
   <component name="FavoritesManager">
     <favorites_list name="chatroom.server" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-      <file leaf-file-name="messageDao.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/messageDao.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-            <state line="50" column="95" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.981378">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requestHandler.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requestHandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="12" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="44" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ws.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ws.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="62" selection-start="604" selection-end="604" vertical-scroll-proportion="0.3125">
-              <folding>
-                <element signature="e#0#153#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -110,29 +932,7 @@
       <MyDateState />
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/helloworld.js" />
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/router.js" />
-        <option value="$PROJECT_DIR$/requestHandler.js" />
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/node_modules/ws.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/ws.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/model/message.js" />
-        <option value="$PROJECT_DIR$/config.js" />
-        <option value="$PROJECT_DIR$/requestHandler.js" />
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/messageDao.js" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
     <option name="x" value="1272" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
@@ -145,7 +945,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -185,151 +985,44 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/helloworld.js" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\project\work\chatroom\chatroom.server" />
-    </key>
   </component>
   <component name="RunManager">
-  <component name="RunManager" selected="Node.js.index.js">
-    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="D:/develop/nodejs/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
-      <RunnerSettings RunnerId="NodeJS.debug" />
-      <RunnerSettings RunnerId="NodeJS.run" />
-      <ConfigurationWrapper RunnerId="NodeJS.debug" />
-      <ConfigurationWrapper RunnerId="NodeJS.run" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
-      <node-js-remote-debug />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/develop/nodejs/node" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="chrome" />
-        <option name="fileUrl" value="" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="chrome" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <list size="0" />
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dd25cc9a-00dc-4272-b3c2-b0287799f335" name="Default" comment="" />
-      <created>1376629701034</created>
-      <updated>1376629701034</updated>
+      <changelist id="25b664d1-b6f7-49f1-a4c8-00adf27614b4" name="Default" comment="" />
+      <created>1377226443278</created>
+      <updated>1377226443278</updated>
     </task>
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
-    <todo-panel id="selected-file">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="default-changelist">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
     <frame x="1272" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33015114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293556" sideWeight="0.6702381" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24264121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297619" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -391,161 +1084,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
-    <breakpoint-manager>
-      <option name="time" value="18" />
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server.js">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-        <state line="16" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="-10.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-    <entry file="file://$PROJECT_DIR$/model/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-        <state line="7" column="9" selection-start="160" selection-end="160" vertical-scroll-proportion="0.031657357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requestHandler.js">
-    <entry file="file://$USER_HOME$/.WebStorm6/system/extLibs/nodejs-v0.10.15-src/core-modules-sources/lib/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="12" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
-        <state line="355" column="31" selection-start="10052" selection-end="10052" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router.js">
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-        <state line="21" column="33" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-    <entry file="file://$USER_HOME$/.WebStorm6/system/extLibs/nodejs-v0.10.15-src/core-modules-sources/lib/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-        <state line="94" column="16" selection-start="3238" selection-end="3238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-        <state line="413" column="15" selection-start="8649" selection-end="8649" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requestHandler.js">
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/cursor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="12" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
-        <state line="650" column="15" selection-start="25646" selection-end="25646" vertical-scroll-proportion="0.33200794">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router.js">
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-        <state line="1680" column="21" selection-start="44251" selection-end="44251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-    <entry file="file://$PROJECT_DIR$/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-        <state line="8" column="48" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-    <entry file="file://$USER_HOME$/.WebStorm6/system/extLibs/nodejs-v0.10.15-src/core-modules-sources/lib/http.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="78" selection-start="63" selection-end="63" vertical-scroll-proportion="0.083538085" />
-        <state line="1109" column="69" selection-start="31863" selection-end="31863" vertical-scroll-proportion="0.46124032">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router.js">
-    <entry file="file://$USER_HOME$/.WebStorm6/system/extLibs/nodejs-v0.10.15-src/core-modules-sources/lib/net.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
-        <state line="1060" column="9" selection-start="27061" selection-end="27061" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requestHandler.js">
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/node_modules/mpromise/lib/promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="12" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
-        <state line="78" column="37" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-    <entry file="file://$PROJECT_DIR$/requestHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-          <folding />
-        <state line="74" column="15" selection-start="2267" selection-end="2267" vertical-scroll-proportion="0.58845437">
-          <folding>
-            <element signature="e#1827#1978#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-        <state line="170" column="17" selection-start="4957" selection-end="4957" vertical-scroll-proportion="0.3148855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="373" selection-end="373" vertical-scroll-proportion="0.3795256" />
-        <state line="21" column="39" selection-start="572" selection-end="572" vertical-scroll-proportion="0.66480446">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ws.js">
-    <entry file="file://$PROJECT_DIR$/messageDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="62" selection-start="604" selection-end="604" vertical-scroll-proportion="0.3125">
-          <folding>
-            <element signature="e#0#153#0" expanded="false" />
-          </folding>
-        <state line="50" column="95" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.981378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
 
