@@ -14,12 +14,13 @@ var router = require("./router");
 var requestHandlers = require("./requestHandler.js");
 
 var handle = {}
-handle["/"] = requestHandlers.start;
-handle["/start"] = requestHandlers.start;
-handle["/upload"] = requestHandlers.upload;
-handle["/show"] = requestHandlers.show;
+handle["/"] = requestHandlers.messagebox;
+//handle["/start"] = requestHandlers.start;
+//handle["/upload"] = requestHandlers.upload;
+//handle["/show"] = requestHandlers.show;
 handle["/list"] = requestHandlers.list;
-handle["/save"] = requestHandlers.save;
+handle["/post"] = requestHandlers.post;
+handle["/messagebox"] = requestHandlers.messagebox;
 
 
 

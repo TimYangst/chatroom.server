@@ -7,10 +7,9 @@
  */
 var querystring = require("querystring");
 var fs = require("fs");
-var formidable = require("formidable");
 var messageDao = require("./messageDao");
 
-function start(response) {
+function messagebox(response) {
     console.log("Request handler 'start' was called.");
 
     var body = '<html>'+
@@ -19,10 +18,11 @@ function start(response) {
         'charset=UTF-8" />'+
         '</head>'+
         '<body>'+
-        '<form action="/upload" enctype="multipart/form-data" '+
+        '<form action="/post"'+
         'method="post">'+
-        '<input type="file" name="upload">'+
-        '<input type="submit" value="Upload file" />'+
+        'username : <input type="text" name="username"/> <br/>'+
+        'message : <input type="text" name="content" /> <br/>'+
+        '<input type="submit" value="submit">'+
         '</form>'+
         '</body>'+
         '</html>';
@@ -31,7 +31,7 @@ function start(response) {
     response.write(body);
     response.end();
 }
-
+/*
 function upload(response, request) {
     console.log("Request handler 'upload' was called.");
     var form = new formidable.IncomingForm();
@@ -44,9 +44,8 @@ function upload(response, request) {
         response.write("<img src='/show?path=" +files.upload.path + "' />");
         response.end();
     });
-
-}
-
+}    */
+/*
 function show(response, request, query) {
     console.log("Request handler 'show' was called.");
     var path = querystring.parse(query).path;
@@ -62,21 +61,44 @@ function show(response, request, query) {
         }
     });
 }
-
+  */
+function Outputer(resp)
+{
+    var response = resp;
+    return function(msg, err){
+        if (!err){
+            response.writeHead(200, {"Content-Type": "text/html"});
+            response.write(msg);
+            response.end();
+        } else {
+            response.writeHead(500, {"Content-Type": "text/html"});
+            response.write(err.toString());
+            response.end();
+        }
+    }
+}
 function list(response){
     console.log("Request handler 'list' was called.");
-    messageDao.list(response);
+    messageDao.list(new Outputer(response));
 }
 
-function save(response, request, query)
+function post(response, request)
 {
-    var username = querystring.parse(query).username;
-    var content = querystring.parse(query).content;
-    messageDao.save(username,content,new Date().getTime(),response);
+    var postData = "";
+    console.log("Request handler 'post' was called.");
+    request.addListener("data", function(postDataChunk) {
+        postData += postDataChunk;
+        console.log("Received POST data chunk '" + postDataChunk +"'.");
+    });
+    request.addListener("end", function() {
+        console.log("Post end.");
+        messageDao.save(querystring.parse(postData),new Outputer(response));
+    });
 }
 
-exports.start = start;
-exports.upload = upload;
-exports.show = show;
+//exports.start = start;
+//exports.upload = upload;
+//exports.show = show;
+exports.messagebox = messagebox;
 exports.list = list;
-exports.save = save;
+exports.post= post;

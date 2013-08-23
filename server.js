@@ -16,6 +16,7 @@ function start(route, handle)
         var pathname = url.parse(request.url).pathname;
         var query =  url.parse(request.url).query;
         console.log("Request for " + pathname + " received.");
+        request.setEncoding("utf8");
         route(handle, pathname, response, request, query);
     }
 
