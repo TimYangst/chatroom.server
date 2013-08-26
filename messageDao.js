@@ -35,6 +35,27 @@ function save(msgObj, callback) {
     }
 }
 
+function lookup(lasttimestr, callback){
+    try{
+        var conn = mongoose.connect(config.DATABASE_URL);
+        try{
+            var MessageModule = mongoose.model('message', messageSchema);
+            var lasttime = Number(lasttimestr);
+            MessageModule.find( { time : { $gt : lasttime }}, function (err, messages) {
+                callback(JSON.stringify(messages), err);
+                conn.connection.close();
+            });
+        } catch (ee)
+        {
+            conn.connection.close();
+        }
+    }   catch (e) {
+       callback(null, e);
+    }
+
+
+}
+
 function list(callback) {
     try {
         var conn = mongoose.connect(config.DATABASE_URL);
@@ -50,3 +71,4 @@ function list(callback) {
 
 exports.list = list;
 exports.save = save;
+exports.lookup = lookup;
