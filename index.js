@@ -20,6 +20,7 @@ handle["/"] = requestHandlers.messagebox;
 //handle["/show"] = requestHandlers.show;
 handle["/list"] = requestHandlers.list;
 handle["/post"] = requestHandlers.post;
+handle["/heartbeat"] = requestHandlers.heartbeat;
 handle["/messagebox"] = requestHandlers.messagebox;
 
 

@@ -77,6 +77,16 @@ function Outputer(resp)
         }
     }
 }
+
+function heartbeat(response, request, query)
+{
+    console.log("Request handler 'heartbeat' was called.");
+    var lasttime = querystring.parse(query).lasttime;
+    if (lasttime == null || lasttime == "") lasttime = "0";
+    messageDao.lookup(lasttime, new Outputer(response));
+
+}
+
 function list(response){
     console.log("Request handler 'list' was called.");
     messageDao.list(new Outputer(response));
@@ -102,3 +112,4 @@ function post(response, request)
 exports.messagebox = messagebox;
 exports.list = list;
 exports.post= post;
+exports.heartbeat = heartbeat;
