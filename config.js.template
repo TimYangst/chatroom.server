@@ -5,8 +5,8 @@
  * Time: 2:11 PM
  */
 
-var PORT = 9999;
-var DATABASE_URL = 'mongodb://localhost/chatroomdb';
+var PORT = 9527;
+var DATABASE_URL = 'mongodb://localhost/chatroom';
 
 
 exports.PORT = PORT;
