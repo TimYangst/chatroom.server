@@ -2,679 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b664d1-b6f7-49f1-a4c8-00adf27614b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/cms/_pages/.placeholder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/file/beta-sticker-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/file/binaryfile.tar.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/file/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/boom/images/boom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/images/boom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/boom/images/boom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/boom/images/boom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/images/catbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/chatroom-0.0.4.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/directory/invalid/index.html/do-not-delete" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/images/hapi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/images/hawk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/images/hoek.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/images/hoek.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/images/hoek.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/images/hoek.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/images/hoek.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/images/iron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/images/joi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/file/menu_separator.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/multi_video.upload" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/encoding/pf1y5.png.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/file/pf1y5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/directory/subdir/subsubdir/placeholder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/semver.browser.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/semver.min.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/images/shot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/images/validation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/.hidden" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/boom/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/boom/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/sntp/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/boom/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/lru-cache/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/stream-counter/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/wordwrap/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/boom/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/boom/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/sntp/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/boom/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/boom/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/lru-cache/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/examples/CAPSLOCKTYPER.JS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/async/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/boom/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/boom/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/sntp/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/boom/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/lru-cache/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/mime/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/boom/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/boom/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/sntp/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/boom/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/docs/Plugins.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/wordwrap/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/async/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/boom/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/boom/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/sntp/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/boom/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/lru-cache/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/mime/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/stream-counter/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/proposals/RFC.CacheMemorySize.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/proposals/RFC.DocGeneration.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/proposals/RFC.QueryConfig.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/proposals/RFC.QueryValidation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/proposals/Routing/RFC.RouteConfig.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/proposals/RFC.Throttling.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/docs/Reference.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/docs/Style.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/cms/_pages/Test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/test/_.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/lib/_stream_duplex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/lib/_stream_passthrough.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/lib/_stream_readable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/lib/_stream_transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/lib/_stream_writable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/jade/templates/about.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/examples/accept.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/test/amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/types/any.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/types/any.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/test/_/argv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/types/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/types/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/async/lib/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/auth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/auth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/auth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/examples/azureblobstorage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/invalid/badmustache.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/types/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/types/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/handlebars/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/auth/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/lru-cache/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/bench-multipart-parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/lru-cache/bench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/encoding/beta-sticker-1.png.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/auth/bewit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/test/_/bin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/encoding/binaryfile.tar.gz.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/encoding/blank.gif.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/bool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/types/boolean.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/types/boolean.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/boolean_double.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/boolean_single.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/wordwrap/test/break.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/lib/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/test/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/buffer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/cacheable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/cached.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/wordwrap/example/center.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/examples/charset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/lib/charset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/test/charset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/lib/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/test/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/lib/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/test/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/clientTimeout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/closed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/test/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/async/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/composer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/composer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/auth/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/cms/views/create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/preamble/crlf.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/lib/crypto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/test/crypto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/test/dash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/test/dash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/test/default_bool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/default_hash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/default_singles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/lib/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/test/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/directory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/response/directory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/divide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/test/dotted.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/dtrace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/dtrace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/duplex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/cms/views/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/types/email.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/empty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/languages/en-US.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/languages/en-US.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/js/encoding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/examples/encoding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/lib/encoding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/test/encoding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/errors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/errors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/lib/escape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/lib/escape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/lib/escape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/lib/escape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/lib/escape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/test/escaper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/test/escaper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/test/escaper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/test/escaper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/test/escaper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/ext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/ext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/ext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/favicon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/file.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/no-filename/filename-name.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/files.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/files.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/float.patch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/jade/templates/includes/foot.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/foot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/cms/views/partials/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/handlebars/templates/withPartials/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/lru-cache/test/foreach.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/types/function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/types/function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/file/funkyfilename.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/no-filename/generic.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/generic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/gzip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/mixed/templates/handlebars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/valid/handler.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/hapi.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/hapi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/hapi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/bin/hapi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hapi_index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/auth/hawk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/jade/templates/includes/head.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/head.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/handlebars/templates/withPartials/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/headers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/test/helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/examples/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/wordwrap/test/idleness.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/directory/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/file/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/cms/views/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/handlebars/templates/basic/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/handlebars/templates/withLayout/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/handlebars/templates/withPartials/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/directory/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/jade/templates/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/mixed/templates/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/valid/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/jade/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/mixed/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/auth/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/boom/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/boom/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/boom/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/boom/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/boom/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/boom/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/sntp/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/sntp/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/sntp/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/boom/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/boom/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/boom/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/types/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/types/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/stream-counter/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/wordwrap/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--auth/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--child-perm/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--child/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--context/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--deps1/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--deps2/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--deps3/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--loaded/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--loader/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--loader/node_modules/--inner/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--skip/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--test1/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--test2/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--views/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/special-chars-in-filename/info.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/injection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/jsonp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/examples/language.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/lib/language.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/test/language.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/cms/views/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/handlebars/templates/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/jade/templates/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/valid/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/handlebars/layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/line_count.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/line_count_options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/line_count_wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/test/long.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/lru-cache/lib/lru-cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/wordwrap/example/meat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/lib/mediaType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/test/mediaType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/lru-cache/test/memory-leak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/lib/memory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/test/memory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/encoding/menu_seperator.png.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/test/message.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/messages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/messages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/validation/messages.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/support/meta.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/mime/mime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/mime/types/mime.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/workarounds/missing-hyphens1.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/workarounds/missing-hyphens2.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/examples/mongo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/lib/mongo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/test/mongo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/multipart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/cms/views/partials/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/valid/partials/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/valid/partials/nested/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/lib/negotiator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/proposals/Routing/new_routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/js/no-filename.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/test/no-module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/mime/types/node.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/nonopt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/notFound.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/file/note.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/types/number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/types/number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/obj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/types/object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/types/object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/sntp/examples/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/special-chars-in-filename/osx-chrome-13.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/special-chars-in-filename/osx-firefox-3.6.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/special-chars-in-filename/osx-safari-5.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/async/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/boom/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/boom/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/sntp/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/boom/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/lru-cache/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/mime/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/stream-counter/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/wordwrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/shot/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--auth/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--child/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--child-perm/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--context/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--deps1/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--deps2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--deps3/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--loaded/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--loader/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--loader/node_modules/--inner/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--skip/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--test1/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--test2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--views/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/cms/views/page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/cms/pages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/example/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/test/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/test/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/test/parse_modified.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/test/parse_modified.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/handlebars/partials.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/passthrough.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/payload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/payload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/payload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/encoding/plain.txt.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/file/plain.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/examples/policy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/lib/policy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/test/policy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/preamble/preamble.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/js/preamble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/prerequisites.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/prerequisites.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/proxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/readable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/test/readme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/readme.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/readme.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/negotiator/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/record.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/redirection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/examples/redis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/lib/redis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/test/redis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/reflect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/request.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/request.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/request.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/response.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/proposals/Routing/routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/examples/s3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/schema.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/schema.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/security.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/semver.browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/.bin/semver.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/semver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/semver.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/.bin/semver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/semver/bin/semver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/directory/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/file/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/views/cms/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/lib/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/test/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/serverTimeout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/set.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/short.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/test/short.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/test/short.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/socketio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/js/special-chars-in-filename.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/types/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/test/types/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/tails.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/standalone/test-connection-aborted.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/standalone/test-content-transfer-encoding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/standalone/test-invalid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/standalone/test-issue-4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/standalone/test-issue-46.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-compatibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-finish-pipe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-large-read-stall.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-objects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-pipe-error-handling.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-push.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-read-sync-stack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-readable-empty-buffer-no-eof.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-readable-from-list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-readable-legacy-drain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-readable-non-empty-end.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-set-encoding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-unpipe-drain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-unpipe-leak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/simple/test-stream2-writable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/pack/--views/templates/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/invalid/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/valid/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/valid/test.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/mime/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/stream-counter/test/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/stream-counter/test/test.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/integration/directory/subdir/test.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/test/modules/test1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/test/modules/test1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/test/modules/test1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/test/modules/test1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/test/modules/test1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/test/modules/test2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/test/modules/test2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/test/modules/test2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/test/modules/test2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/test/modules/test2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/catbox/node_modules/hoek/test/modules/test3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/cryptiles/node_modules/boom/node_modules/hoek/test/modules/test3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/hoek/test/modules/test3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hoek/test/modules/test3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/iron/node_modules/hoek/test/modules/test3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/valid/testHelpers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/valid/testMulti.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/valid/testPartials.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/node_modules/sntp/examples/time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/transform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/examples/typer-fsr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/examples/typer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/examples/upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/templates/valid/helpers/uppercase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/test/uri.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/usage-options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/example/usage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/test/usage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/hawk/test/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/joi/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/examples/validation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/validation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/validation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/update/version.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/response/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/response/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/lib/views.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/test/unit/views.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/minimist/test/whitespace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/test/whitespace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/js/workarounds.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/node_modules/wordwrap/test/wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/writable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/test/fixtures/x1024.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/special-chars-in-filename/xp-chrome-12.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/special-chars-in-filename/xp-ie-7.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/special-chars-in-filename/xp-ie-8.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/test/fixture/http/special-chars-in-filename/xp-safari-5.http" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/optimist/example/xup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/hapi/node_modules/multiparty/node_modules/readable-stream/zlib.js" />
+      <change type="DELETED" beforePath="D:\project\chatroom\chatroom.server\hapi_index.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update/version.xml" afterPath="$PROJECT_DIR$/update/version.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chatroom.server.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="25b664d1-b6f7-49f1-a4c8-00adf27614b4" time="1378115895651" ignored="false" />
-    <file path="/index.js" changelist="25b664d1-b6f7-49f1-a4c8-00adf27614b4" time="1377508646748" ignored="false" />
+    <file path="/Dummy.txt" changelist="25b664d1-b6f7-49f1-a4c8-00adf27614b4" time="1378195167814" ignored="false" />
+    <file path="/index.js" changelist="25b664d1-b6f7-49f1-a4c8-00adf27614b4" time="1378195860342" ignored="false" />
     <file path="/messageDao.js" changelist="25b664d1-b6f7-49f1-a4c8-00adf27614b4" time="1377511522397" ignored="false" />
     <file path="/requestHandler.js" changelist="25b664d1-b6f7-49f1-a4c8-00adf27614b4" time="1377684140640" ignored="false" />
     <file path="/server.js" changelist="25b664d1-b6f7-49f1-a4c8-00adf27614b4" time="1377237553346" ignored="false" />
     <file path="/fragment.js" changelist="25b664d1-b6f7-49f1-a4c8-00adf27614b4" time="1377511647849" ignored="false" />
     <file path="/hapi_index.js" changelist="25b664d1-b6f7-49f1-a4c8-00adf27614b4" time="1377853760347" ignored="false" />
+    <file path="/config.js" changelist="25b664d1-b6f7-49f1-a4c8-00adf27614b4" time="1378195486439" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -688,69 +30,31 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/config.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="11" column="132" selection-start="221" selection-end="221" vertical-scroll-proportion="0.22916667">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="chatroom.server" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="requestHandler.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requestHandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="34" selection-start="3033" selection-end="3033" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="47" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hapi_index.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hapi_index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="41" selection-start="222" selection-end="231" vertical-scroll-proportion="0.083333336">
-              <folding>
-                <element signature="e#0#159#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="12" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="50" selection-start="642" selection-end="652" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messageDao.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/messageDao.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="45" selection-start="882" selection-end="922" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -769,11 +73,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/messageDao.js" />
         <option value="$PROJECT_DIR$/requestHandler.js" />
-        <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/hapi_index.js" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -828,6 +132,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatroom.server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatroom.server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="update" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -835,8 +153,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.js" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.js" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Node.js.myconfig">
@@ -855,10 +173,6 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
-      <node-js-remote-debug />
-      <method />
-    </configuration>
     <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="D:/develop/nodejs/node" />
       <envs />
@@ -869,7 +183,8 @@
       <setting name="jsFile" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/develop/nodejs/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -886,6 +201,9 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="D:/develop/nodejs/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -934,12 +252,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24264121" sideWeight="0.6710214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14001592" sideWeight="0.6710214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39880952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1013,13 +331,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/requestHandler.js</url>
-          <line>90</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="38" />
     </breakpoint-manager>
   </component>
@@ -1082,47 +393,38 @@
         <state line="1946" column="0" selection-start="55298" selection-end="55298" vertical-scroll-proportion="0.33194155" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messageDao.js">
+    <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="45" selection-start="882" selection-end="922" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="50" selection-start="642" selection-end="652" vertical-scroll-proportion="0.0">
+        <state line="11" column="132" selection-start="221" selection-end="221" vertical-scroll-proportion="0.22916667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="12" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+        <state line="28" column="41" selection-start="785" selection-end="785" vertical-scroll-proportion="0.432282">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requestHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="34" selection-start="3033" selection-end="3033" vertical-scroll-proportion="0.0">
+        <state line="90" column="23" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.56771797">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="47" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+        <state line="23" column="16" selection-start="660" selection-end="672" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hapi_index.js">
+    <entry file="file://$PROJECT_DIR$/messageDao.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="41" selection-start="222" selection-end="231" vertical-scroll-proportion="0.083333336">
-          <folding>
-            <element signature="e#0#159#0" expanded="false" />
-          </folding>
+        <state line="37" column="45" selection-start="882" selection-end="922" vertical-scroll-proportion="0.125">
+          <folding />
         </state>
       </provider>
     </entry>
