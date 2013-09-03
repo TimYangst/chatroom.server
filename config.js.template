@@ -1,0 +1,18 @@
+/**
+ * Created with JetBrains WebStorm.
+ * User: t-tiyan
+ * Date: 8/21/13
+ * Time: 2:11 PM
+ */
+
+var PORT = 9528;
+var DATABASE_URL = 'mongodb://localhost/chatroomdb';
+var UPDATE_PORT = 9527;
+var LOCAL_IP = "10.190.185.93"
+
+
+
+exports.PORT = PORT;
+exports.DATABASE_URL = DATABASE_URL;
+exports.UPDATE_PORT = UPDATE_PORT;
+exports.LOCAL_IP =  LOCAL_IP;
